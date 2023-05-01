@@ -61,7 +61,6 @@ public class GoalMapper {
         ZoneId zoneId = ZoneId.systemDefault();
         long createdOn = goal.getCreatedOn().atZone(zoneId).toEpochSecond();
         long start = goal.getStart().atZone(zoneId).toEpochSecond();
-        long deadline = goal.getDeadLine().atZone(zoneId).toEpochSecond();
         Double importance = goal.getImportance();
         long now = LocalDateTime.now().atZone(zoneId).toEpochSecond();
 

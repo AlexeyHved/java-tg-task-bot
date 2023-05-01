@@ -9,7 +9,6 @@ import java.time.LocalDateTime;
 
 import static com.github.alexeyhved.taskbot.Const.DT;
 import static com.github.alexeyhved.taskbot.constant.Buttons.*;
-import static com.github.alexeyhved.taskbot.dto.TxtMapper.coverSymbols;
 
 @AllArgsConstructor
 @Getter

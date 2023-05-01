@@ -5,8 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-import static com.github.alexeyhved.taskbot.dto.TxtMapper.coverSymbols;
-
 @AllArgsConstructor
 @Getter
 @Setter

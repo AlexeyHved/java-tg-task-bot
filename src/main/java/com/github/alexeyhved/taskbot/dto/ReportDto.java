@@ -6,7 +6,6 @@ import lombok.AllArgsConstructor;
 public class ReportDto {
     private int current;
     private int planned;
-    private int waiting;
     private int finished;
     private int all;
 
